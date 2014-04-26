@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <title>Pearce Studio</title>
+    <meta name="author" content="Matthew P. Anderson">
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="stylesheet" type="text/css" media="all" href="css/styles.css">
+<!--JS SCROLL PLUG-IN---------------------------------------------------------------------->
+    <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="js/jquery.scrollTo.js"></script>
+<!--TYPEKIT FONTS-------------------------------------------------------------------------->
+    <script type="text/javascript" src="//use.typekit.net/zjn5fpm.js"></script>
+    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
+        <script type="text/javascript">
+            window.images = [];
+            (function (global) {
+                var index, img;
+                for (index = 1; index <= 4; index += 1) {
+                    img = new Image();
+                    img.src="/imgs/slideshow_imgs/slide-" + index + ".jpg";
+                    global.images.push(img);
+                }
+            }(window));
+        </script>
+    </head>
+    <body>
+<!--BEGIN HEADER--------------------------------------------------------------------------->
+    <div class="header">
+        <div class="topbar">
+            <a href="/index.html"><img src="/imgs/logo.png"></a>
+            <div class="bar">
+                <div id='cssmenu'>
+                    <ul>
+                       <li class='active'><a href="/index.html#home" class="js-scroll"><span>Home</span></a></li>
+                       <li class='has-sub'><a href="/#work" class="js-scroll"><span>Work</span></a>
+                          <ul>
+                              <li class='has-sub'><a href="/work.html#branding"><span>Branding</span></a></li>
+                              <li class='has-sub'><a href="/work.html#illustration"><span>Illustration</span></a></li>
+                              <li class='has-sub'><a href="/work.html#animation"><span>Animation</span></a></li>
+                              <li class='has-sub'><a href="/work.html#web"><span>Web</span></a></li>
+                          </ul>
+                       </li>
+                       <li><a href="/index.html#about" class="js-scroll"><span>About</span></a></li>
+                       <li class='last'><a href="/index.html#contact" class="js-scroll"><span>Contact</span></a></li>
+                    </ul>
+                </div>
+            </div>  
+        </div>
+    </div>
+        
+        <div class="wrap">
+            <div class="content">
+                
+            <!--BEGIN HOME PAGE------------------------------------------------------------->
+            
+            <section id="home" class="section home-section">
+                <img src="imgs/headers/home-head.png">
+                <img src="imgs/headers/home-title.png">        
+                <div class="hero">
+                    <div class="banner">
+                        <img src="imgs/flag.png">
+                    </div>
+                        <div class="slideshow"><a href="work.html"><img src="imgs/slideshow_imgs/ettwm_1.png" name="slide"></a>
+                            <script type="text/javascript">
+                            <!--
+                            (function () {
+                                var pic = 0;
+                                function slides() {
+                                    if (!document.images) {
+                                        return;
+                                    }
+                                    document.images.slide.src = window.images[pic].src;
+                                    if (pic < 3) {
+                                        pic += 1;
+                                    } else {
+                                        pic = 0;
+                                    }
+                                    setTimeout(slides, 2000);
+                                }
+                                slides();
+                            }());
+                            //-->
+                            </script>
+                        </div>
+                    </div>
+            
+                        <p>My name is Matthew Pearce Anderson and this is my (digital) place. Creativity has driven my life since buckets made you a knight and the world was composed in Crayola. That same imaginative spirit continues to be the catalyst to my work. I believe that when hand, heart and mind work in unison the outcome is vibrant and alive. Want to see more? Check out my <a href="#work">work</a>, or <a href="#contact">get in touch</a>!</p>
+            </section>
+                
+            <!--BEGIN WORK PAGE------------------------------------------------------------->
+            
+            <section id="work" class="section cf">
+                <img src="imgs/headers/work-head.png">
+                <img src="imgs/headers/work-title.png">
+                
+                    <p>As a designer, one of my greatest goals is to be as multifaceted as possible. This stems from a passion for art and creative expression. Also, I just enjoy learning and trying new things and honing the things I know. You can see these different "things" right here. You can browse categorically if it suits your fancy. If you have more time on your hands, or simply prefer to wander aimlessly, click the "All Work" button to start from the top!</p>
+                
+                <div class="button"><a href="work.html#top"><img src="imgs/work_thumbs/viewall_button.jpg"></a>
+                </div>
+                    
+                    <!--<br><br>-->
+                
+                <div class="workpg">
+                    <div class="workpg_box">
+                        <a href="work.html#branding"><img src="imgs/work_thumbs/branding-thumb.png"></a>
+                        <div class="workflag">
+                            <img src="imgs/work_thumbs/branding-flag.png">
+                        </div>
+                    </div>
+                    <div class="workpg_box">
+                        <a href="work.html#illustration"><img src="imgs/work_thumbs/illustration-thumb.png"></a>
+                        <div class="workflag">
+                            <img src="imgs/work_thumbs/illustration-flag.png">
+                        </div>
+                    </div>
+                    <div class="workpg_box">
+                        <a href="work.html#web"><img src="imgs/work_thumbs/web-thumb.png"></a>
+                        <div class="workflag">
+                            <img src="imgs/work_thumbs/web-flag.png">
+                        </div>
+                    </div>
+                    <div class="workpg_box">
+                        <a href="work.html#animation"><img src="imgs/work_thumbs/animation-thumb.png"></a>
+                        <div class="workflag">
+                            <img src="imgs/work_thumbs/animation-flag.png">
+                        </div>
+                    </div>
+                </div>    
+            </section>
+            
+            <!--<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>-->
+
+        
+            <!--BEGIN ABOUT PAGE------------------------------------------------------------->  
+            
+            <section id="about" class="section">
+                <img src="imgs/headers/about-head.png">
+                <img src="imgs/headers/about-title.png">
+                
+                    <p>Honest ambition. Earnest work. That's my promise. I am driven to succeed and continually achieve greater goals, both on a personal level and for my clients. I don't know all the answers, but if you need 'em, I'll find 'em, because, hey, that's half the fun. The other half is finding a solution that makes you happy and shows you off to the world. I'm not just in it to win it, for me business is personal–its all about connecting with people and connecting them (graphically) to other people. It's fun, I enjoy it and I hope some of that rubs off on the people I work with.</p>
+                    <br>
+                    <p>If you want to pick my brain, hear my thoughts and see more of my work, then you can find me, follow me and friend request me with the links below!</p>
+                
+                        <br><br><br>
+                
+                <div class="connectives-box">
+                    <a class="link-connectives" href="http://www.twitter.com/pearcestudioM"><img src="imgs/connectives/twitter_favicon.png" onmouseover="this.src='imgs/connectives/twitter_favicon_r.png'" onmouseout="this.src='imgs/connectives/twitter_favicon.png'"></a>
+                    <a class="link-connectives" href="http://www.linkedin.com/in/pearcestudio"><img src="imgs/connectives/linkedin_favicons.png" onmouseover="this.src='imgs/connectives/linkedin_favicons_r.png'" onmouseout="this.src='imgs/connectives/linkedin_favicons.png'"></a>
+                    <a class="link-connectives" href="http://www.facebook.com/pearcestudio"><img src="imgs/connectives/fb_favicon.png" onmouseover="this.src='imgs/connectives/fb_favicon_r.png'" onmouseout="this.src='imgs/connectives/fb_favicon.png'"></a>
+                    <a class="link-connectives" href="http://matt-pearcestudio.blogspot.com/"><img src="imgs/connectives/blogger_favicon.png" onmouseover="this.src='imgs/connectives/blogger_favicon_r.png'" onmouseout="this.src='imgs/connectives/blogger_favicon.png'"></a>
+                    <a class="link-connectives" href="http://www.behance.net/pearcestudio"><img src="imgs/connectives/behance_favicons.png" onmouseover="this.src='imgs/connectives/behance_favicons_r.png'" onmouseout="this.src='imgs/connectives/behance_favicons.png'"></a>
+                </div>
+                
+                        <br><br>
+                
+                        <p>You can also check out my résumé to see my experience &amp; qualifications: <a href="matt_anderson_resume.pdf">View Résumé</a></p>
+                
+                        <p>Should you so desire, I can provide a list of references upon request!</p>
+                
+                        <br><br><br>
+                
+            </section>
+<!--BEGIN CONTACT PAGE----------------------------------------------------------->
+            <section id="contact" class="section">
+                <img src="imgs/headers/contact-head.png">
+                <img src="imgs/headers/contact-title.png">
+                        <p>If you like what you see, lets talk! To find out more about how I can serve your creative needs you can email me at: <a href="mailto:matt.pearcestudio@gmail.com">matt.pearcestudio@gmail.com</a>, or give me a call at: <a href="tel://1-763-258-3484">763-258-3484</a></p>
+                <br>
+                        <p>Got a quick question now? Use the form below to send me a direct message on the fly!</p>
+                
+                <br>
+                
+<!--BEGIN CONTACT FORM------------------------------------------------------------>     
+                <div id="wufoo-z1lkaz9w00givvs">Fill out my <a href="https://mattiebouie.wufoo.com/forms/z1lkaz9w00givvs">online form</a>.
+                </div>
+                    <script type="text/javascript">var z1lkaz9w00givvs;(function(d, t) {
+                    var s = d.createElement(t), options = {
+                    'userName':'mattiebouie', 
+                    'formHash':'z1lkaz9w00givvs', 
+                    'autoResize':true,
+                    'height':'517',
+                    'async':true,
+                    'host':'wufoo.com',
+                    'header':'show', 
+                    'ssl':true};
+                    s.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'wufoo.com/scripts/embed/form.js';
+                    s.onload = s.onreadystatechange = function() {
+                    var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return;
+                    try { z1lkaz9w00givvs = new WufooForm();z1lkaz9w00givvs.initialize(options);z1lkaz9w00givvs.display(); } catch (e) {}};
+                    var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
+                    })(document, 'script');</script>              
+<!--END CONTACT FORM-------------------------------------------------------------->
+                    
+                    <!--<br><br><br>-->
+                    
+                    <img src="imgs/line.png">
+                    <p2>Copyright © Matthew P. Anderson – Graphic Designer</p2>
+            </section> 
+        </div> <!--END .content-->
+    </div> <!--END .w-->
+
+
+<script type="text/javascript">
+$(function(){
+  $("#cssmenu .js-scroll").click(function(e){
+    e.preventDefault();
+    $('html,body').scrollTo(this.hash,this.hash);
+  });
+});
+</script>
+    
+        
+</body>
+</html>
